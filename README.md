@@ -30,7 +30,7 @@ python3 -m pip install git+https://github.com/WdsUtilidades/CheckUser.git
 checkuser --create-service --config-port 5000 --start
 ```
 
-### SE DER ERRO TENTE ATUALIZAR O PYTHON 
+# SE DER ERRO TENTE ATUALIZAR O PYTHON 
 *Comandos*
 ```
 sudo apt install python3.7
