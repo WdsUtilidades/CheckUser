@@ -30,7 +30,7 @@ checkuser --create-service --config-port 5000 --start
 curl -sL https://raw.githubusercontent.com/WdsUtilidades/CheckUser/main/install.sh > install.sh; chmod a+x install.sh; ./install.sh
 ```
 
-# SE DER ERRO TENTE ATUALIZAR O PYTHON 
+# ❌❌ SE DER ERRO TENTE ATUALIZAR O PYTHON ❌❌
 *Comandos*
 ```
 sudo apt install python3.7
