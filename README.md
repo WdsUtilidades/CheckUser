@@ -1,10 +1,7 @@
 # CheckUser
-
-*CheckUser* E um verificador de usuários.
+*CHECKUSER E UM VERIFICADOR DE USUÁRIOS.*
 
 # Modo de instalação
-
-
 *RECOMENDO O USO DESSE ESTILO*
 ```
 apt update -y && apt upgrade -y
@@ -25,9 +22,12 @@ apt-get update && apt-get install git -y
 ```
 python3 -m pip install git+https://github.com/WdsUtilidades/CheckUser.git
 ```
-
 ```
 checkuser --create-service --config-port 5000 --start
+```
+### Ou
+```
+curl -sL https://raw.githubusercontent.com/WdsUtilidades/CheckUser/main/install.sh > install.sh; chmod a+x install.sh; ./install.sh
 ```
 
 # SE DER ERRO TENTE ATUALIZAR O PYTHON 
@@ -41,7 +41,7 @@ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
 ```
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
 ```
-*Ecolhe o Python3.7 nesse comando abaixo*
+*Ecolher o Python3.7 nesse comando abaixo*
 ```
 sudo update-alternatives --config python3
 ```
@@ -68,13 +68,7 @@ sudo apt autoclean
 sudo apt install python3-apt
 ```
 
-*tente instalar o script novamente*
-
-### Ou
-```
-curl -sL https://raw.githubusercontent.com/WdsUtilidades/CheckUser/main/install.sh > install.sh; chmod a+x install.sh; ./install.sh
-```
- *Opcao 1*
+*TENTE INSTALAR O SCRIPT NOVAMENTE*
 
 # Atualização
 ```
@@ -85,7 +79,6 @@ python3 -m pip install --upgrade git+https://github.com/WdsUtilidades/CheckUser.
 ```
 curl -sL https://raw.githubusercontent.com/WdsUtilidades/CheckUser/master/install.sh > install.sh; chmod a+x install.sh; ./install.sh
 ```
- *Opcao 2*
 
 # Como usar
 ```
